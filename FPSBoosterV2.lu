@@ -118,6 +118,6 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "FPS Booster",
     Text = "FPS Booster Loaded!",
     Duration = math.huge,
-    Duration = 5,
+    Duration = 3,
 })
 game.DescendantAdded:Connect(CheckIfBad)
