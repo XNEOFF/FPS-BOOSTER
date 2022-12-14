@@ -24,4 +24,4 @@ _G.Settings = {
         ["Low Quality Parts"] = true -- Lower quality parts
     }
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FPS-BOOSTER/main/FPSBooster.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FPSBooster/main/FPSBooster.lua"))()
