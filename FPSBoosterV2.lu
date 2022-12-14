@@ -103,7 +103,7 @@ local Descendants = ReturnDescendants()
 local WaitNumber = 500
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "FPS Booster",
-    Text = "Checking " .. #Descendants .. " Instances...",
+    Text = "Checking " .. #Descendants .. " Instances",
     Duration = 5,
 })
 for i, v in pairs(Descendants) do
