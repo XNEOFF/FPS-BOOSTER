@@ -97,14 +97,14 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "FPS Booster",
     Text = "Loading FPS Booster",
     Duration = math.huge,
-    Duration = 5,
+    Duration = 1,
 })
 local Descendants = ReturnDescendants()
 local WaitNumber = 500
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "FPS Booster",
     Text = "Checking " .. #Descendants .. " Instances",
-    Duration = 5,
+    Duration = 1,
 })
 for i, v in pairs(Descendants) do
     CheckIfBad(v)
@@ -118,6 +118,6 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "FPS Booster",
     Text = "FPS Booster Loaded!",
     Duration = math.huge,
-    Duration = 3,
+    Duration = 1,
 })
 game.DescendantAdded:Connect(CheckIfBad)
